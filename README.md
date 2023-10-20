@@ -13,6 +13,15 @@ The world of retail takes the detection scenario to unexplored territories with 
   A typical image in SKU-110K, showing densely packed objects
 </div>
 
+### Dataset
+The SKU-110K dataset collects 11,762 densely packed shelf images from thousands of supermarkets around the world, including locations in the United States, Europe, and East Asia. The dataset is provided solely for academic and non-commercial purposes.
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/benchmarks_comparison.jpg" alt="Dataset Table">
+  
+</div>
+
+Comparison of related benchmarks. #Img.: number of images. #Obj./img.: average items per image. #Cls.: number of object classes (more implies a harder detection problem due to greater appearance variations). #Cls./img.: average classes per image. dense: objects are typically densely packed. Idnt: images contain multiple identical objects or hard to separate object sub-regions. BB: bounding box labels are available.
 
 ## Overview : RetailVision - CVPR 2020
 <div align="center">
