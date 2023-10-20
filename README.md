@@ -1,6 +1,4 @@
-# Product-Detection-in-Densely-Packed-Scenes
-This project is one of the CVPR2020-retail vision challenges. The task of the challenge is to detect products in crowded store displays based on the SKU- 110K dataset.
-
+This project is related to one of the CVPR2020-retail vision challenges. The task of the challenge is to detect products in crowded store displays based on the SKU- 110K dataset.
 
 # Challenge Overview : Product Detection in Densely Packed Scenes
 <B> From the web</B> : [Visit](https://retailvisionworkshop.github.io/detection_challenge_2020/)
@@ -23,17 +21,47 @@ The SKU-110K dataset collects 11,762 densely packed shelf images from thousands 
 
 Comparison of related benchmarks. #Img.: number of images. #Obj./img.: average items per image. #Cls.: number of object classes (more implies a harder detection problem due to greater appearance variations). #Cls./img.: average classes per image. dense: objects are typically densely packed. Idnt: images contain multiple identical objects or hard to separate object sub-regions. BB: bounding box labels are available.
 
+# Our Solution
+
+We used  YOLO, super-gradients, roboflow, supervision, opencv-python, fastapi, kaleido, python-multipart, uvicorn, tensorflow
+```python
+!pip install super-gradients roboflow supervision opencv-python fastapi kaleido python-multipart uvicorn tensorflow
+!DEBIAN_FRONTEND=noninteractive apt update -y && apt install -y libglu1 libglib2.0-0 libsm6 libxrender1 libxext6 git build-essential
+# !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
+### References
+
+https://retailvisionworkshop.github.io/detection_challenge_2020/
+https://retailvisionworkshop.github.io/cvpr2020/
+
+https://github.com/shayanalibhatti/Retail-Store-Item-Detection-using-YOLOv5
+
+#### Kavindu Kalinga
+<p align="left">
+<a href="https://www.linkedin.com/in/kalingachandrasiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kalingachandrasiri" height="15" width="20" /></a>
+<a href="https://twitter.com/yuk_kalinga_c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kavindukalinga" height="15" width="20" /></a>
+<a href="https://stackoverflow.com/users/16277941/kavindu-kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="kavindu-kalinga" height="15" width="20" /></a>
+<a href="https://www.facebook.com/kavindu.kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kavindu.kalinga" height="15" width="20" /></a>
+<a href="https://www.instagram.com/kavindu_kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="kavindu_kalinga" height="15" width="20" /></a>
+<!-- <a href="https://www.youtube.com/c/uckvw2mrlhn_qxktjxyzahzw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uckvw2mrlhn_qxktjxyzahzw" height="15" width="20" /></a> -->
+<a href="https://discord.gg/CrazzyHawK#8536" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="CrazzyHawK#8536" height="15" width="20" /></a>
+</p>
+
+
+# More on the Challenge
+
 ## Challenge Info
 This challenge includes a single track, where participants are invited to develop and train their methods using the data in the SKU-110K dataset and be tested on a yet to be released test set.
 
 All the data in the SKU-110K dataset may be used for training, including the validation and test sets. Methods will be evaluated on a new test set that will be released The test set will be published without annotations. Detection results will be evaluated using the [Evaluation code](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/tree/main/Evaluation%20code).
 
-## Challenge Results
+### Challenge Results
 1st place:  [Technical report](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/1st_A%2BSolution%2Bfor%2BProduct%2BDetection%2Bin%2BDensely%2BPacked%2BScenes.pdf)
 
 2nd place:  [Technical report](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/2nd_Working_with_scale__2nd_place_solution_to_Product_Detection_in_Densely_Packed_Scenes.pdf)
 
-# Overview : RetailVision - CVPR 2020
+## Overview : RetailVision - CVPR 2020
 <div align="center">
 <B> Revolutionizing the World of Retail </B>
   
@@ -55,24 +83,3 @@ This workshop aims to present and progress the revolution that is already occuri
 - Context modeling of geometric structures
 - Multi-person tracking
 - Recognition of actions such as taking/returning/examining products
-
-
-
-### References
-
-https://retailvisionworkshop.github.io/detection_challenge_2020/
-https://retailvisionworkshop.github.io/cvpr2020/
-
-https://github.com/shayanalibhatti/Retail-Store-Item-Detection-using-YOLOv5
-
-
-#### Kavindu Kalinga
-<p align="left">
-<a href="https://www.linkedin.com/in/kalingachandrasiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kalingachandrasiri" height="15" width="20" /></a>
-<a href="https://twitter.com/yuk_kalinga_c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="kavindukalinga" height="15" width="20" /></a>
-<a href="https://stackoverflow.com/users/16277941/kavindu-kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="kavindu-kalinga" height="15" width="20" /></a>
-<a href="https://www.facebook.com/kavindu.kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kavindu.kalinga" height="15" width="20" /></a>
-<a href="https://www.instagram.com/kavindu_kalinga" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="kavindu_kalinga" height="15" width="20" /></a>
-<!-- <a href="https://www.youtube.com/c/uckvw2mrlhn_qxktjxyzahzw" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="uckvw2mrlhn_qxktjxyzahzw" height="15" width="20" /></a> -->
-<a href="https://discord.gg/CrazzyHawK#8536" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="CrazzyHawK#8536" height="15" width="20" /></a>
-</p>
