@@ -3,12 +3,13 @@ This project is one of the CVPR2020-retail vision challenges. The task of the ch
 
 
 ## Challenge Overview : Product Detection in Densely Packed Scenes
+<div align="center">
 
 The world of retail takes the detection scenario to unexplored territories with millions of possible facets and hundreds of heavily crowded objects per image. This challenge is based on the [SKU-110K dataset](https://github.com/eg4000/SKU110K_CVPR19) collected from Trax’s data of supermarket shelves and pushes the limits of detection systems
 
 ![A typical image in SKU-110K, showing densely packed objects](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/teaser.png)
 
-
+</div>
 
 ## Overview : RetailVision - CVPR 2020
 <B> Revolutionizing the World of Retail </B>
