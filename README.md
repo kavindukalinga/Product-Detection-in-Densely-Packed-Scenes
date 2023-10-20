@@ -14,7 +14,9 @@ The world of retail takes the detection scenario to unexplored territories with 
 ## Overview : RetailVision - CVPR 2020
 <div align="center">
 <B> Revolutionizing the World of Retail </B>
+  
 <B> New Computer Vision Challenges </B>
+
 <B> 06.15.2020 Afternoon </B>
 </div>
 
