@@ -8,6 +8,7 @@ The world of retail takes the detection scenario to unexplored territories with 
 
 <div align="center">
   <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/teaser.png" alt="A typical image in SKU-110K, showing densely packed objects">
+  A typical image in SKU-110K, showing densely packed objects
 </div>
 
 
