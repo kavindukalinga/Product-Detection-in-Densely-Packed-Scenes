@@ -26,7 +26,7 @@ Comparison of related benchmarks. #Img.: number of images. #Obj./img.: average i
 ## Challenge Info
 This challenge includes a single track, where participants are invited to develop and train their methods using the data in the SKU-110K dataset and be tested on a yet to be released test set.
 
-All the data in the SKU-110K dataset may be used for training, including the validation and test sets. Methods will be evaluated on a new test set that will be released The test set will be published without annotations. Detection results will be evaluated using the evaluation code.
+All the data in the SKU-110K dataset may be used for training, including the validation and test sets. Methods will be evaluated on a new test set that will be released The test set will be published without annotations. Detection results will be evaluated using the [Evaluation code](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/tree/main/Evaluation%20code).
 
 ## Overview : RetailVision - CVPR 2020
 <div align="center">
