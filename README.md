@@ -3,21 +3,22 @@ This project is one of the CVPR2020-retail vision challenges. The task of the ch
 
 
 ## Challenge Overview : Product Detection in Densely Packed Scenes
-<div align="center">
 
 The world of retail takes the detection scenario to unexplored territories with millions of possible facets and hundreds of heavily crowded objects per image. This challenge is based on the [SKU-110K dataset](https://github.com/eg4000/SKU110K_CVPR19) collected from Trax’s data of supermarket shelves and pushes the limits of detection systems
 
+<div align="center">
 ![A typical image in SKU-110K, showing densely packed objects](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/teaser.png)
 
 </div>
 
 ## Overview : RetailVision - CVPR 2020
+<div align="center">
 <B> Revolutionizing the World of Retail </B>
 
 <B> New Computer Vision Challenges </B>
 
 <B> 06.15.2020 Afternoon </B>
-
+</div>
 [Visit](https://retailvisionworkshop.github.io/cvpr2020/)
 
 > The rapid development in computer vision and machine learning has caused a major disruption in the retail industry. In addition to the rise of the web and online shopping, traditional markets also quickly embrace AI-related technology solutions at the physical store level. Following the introduction of computer vision to the world of retail a new set challenges emerged, such as the detection of products in crowded store displays, fine-grained classification of many visually similar classes, as well as dynamically adapting to changes in data in terms of class appearance variation over time, and new classes that may appear in the images before they are labeled in the dataset. The scene complexity, scale, class imbalance, lack of reliable supervised samples, and dynamic nature of the data, encourage solutions such as context based detection and classification, few-shot learning, uncertainty modeling and open set recognition, and so forth.
