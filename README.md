@@ -2,7 +2,7 @@
 This project is one of the CVPR2020-retail vision challenges. The task of the challenge is to detect products in crowded store displays based on the SKU- 110K dataset.
 
 
-## Challenge Overview : Product Detection in Densely Packed Scenes
+# Challenge Overview : Product Detection in Densely Packed Scenes
 [Visit](https://retailvisionworkshop.github.io/detection_challenge_2020/)
 
 The world of retail takes the detection scenario to unexplored territories with millions of possible facets and hundreds of heavily crowded objects per image. This challenge is based on the [SKU-110K dataset](https://github.com/eg4000/SKU110K_CVPR19) collected from Trax’s data of supermarket shelves and pushes the limits of detection systems
@@ -33,7 +33,7 @@ All the data in the SKU-110K dataset may be used for training, including the val
 
 2nd place:  [Technical report](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/2nd_Working_with_scale__2nd_place_solution_to_Product_Detection_in_Densely_Packed_Scenes.pdf)
 
-## Overview : RetailVision - CVPR 2020
+# Overview : RetailVision - CVPR 2020
 <div align="center">
 <B> Revolutionizing the World of Retail </B>
   
@@ -42,7 +42,7 @@ All the data in the SKU-110K dataset may be used for training, including the val
 <B> 06.15.2020 Afternoon </B>
 </div>
 
-[Visit](https://retailvisionworkshop.github.io/cvpr2020/)
+<B> From the web</B> : [Visit](https://retailvisionworkshop.github.io/cvpr2020/)
 
 The rapid development in computer vision and machine learning has caused a major disruption in the retail industry. In addition to the rise of the web and online shopping, traditional markets also quickly embrace AI-related technology solutions at the physical store level. Following the introduction of computer vision to the world of retail a new set challenges emerged, such as the detection of products in crowded store displays, fine-grained classification of many visually similar classes, as well as dynamically adapting to changes in data in terms of class appearance variation over time, and new classes that may appear in the images before they are labeled in the dataset. The scene complexity, scale, class imbalance, lack of reliable supervised samples, and dynamic nature of the data, encourage solutions such as context based detection and classification, few-shot learning, uncertainty modeling and open set recognition, and so forth.
 
