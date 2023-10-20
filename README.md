@@ -23,6 +23,11 @@ The SKU-110K dataset collects 11,762 densely packed shelf images from thousands 
 
 Comparison of related benchmarks. #Img.: number of images. #Obj./img.: average items per image. #Cls.: number of object classes (more implies a harder detection problem due to greater appearance variations). #Cls./img.: average classes per image. dense: objects are typically densely packed. Idnt: images contain multiple identical objects or hard to separate object sub-regions. BB: bounding box labels are available.
 
+## Challenge Info
+This challenge includes a single track, where participants are invited to develop and train their methods using the data in the SKU-110K dataset and be tested on a yet to be released test set.
+
+All the data in the SKU-110K dataset may be used for training, including the validation and test sets. Methods will be evaluated on a new test set that will be released The test set will be published without annotations. Detection results will be evaluated using the evaluation code.
+
 ## Overview : RetailVision - CVPR 2020
 <div align="center">
 <B> Revolutionizing the World of Retail </B>
