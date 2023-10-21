@@ -53,7 +53,7 @@ Therefore we had to limit our dataset to training dataset of 1000 images, valida
 We uploaded mentioned dataset to our Gdrive and used them in colab. Then mount the drive into workspace.
 
 <div align="center">
-  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/colab%20env.jpg" alt="Colab Environment showing Gdrive data">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/dataset.jpg" alt="Colab Environment showing Gdrive data">
   
   Figure: Access dataset of Gdrive using Colab 
 </div>
