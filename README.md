@@ -29,9 +29,33 @@ We used supervised learning..
 We used Jupyter Notebook provided by Google Colab (free version) to write our codes. We run our codes with GPU (Changed CPU to GPU/TPU).
 
 <div align="center">
-  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/teaser.png" alt="Google Colab Jupyter Notebook">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/colab%20env.jpg" alt="Google Colab Jupyter Notebook">
   
   Figure: Our Coding Environment
+</div>
+
+For our case, Colab free version only supply limited resources.
+
+> What are the usage limits of Colab?
+
+>Colab is able to provide resources free of charge in part by having dynamic usage limits that sometimes fluctuate, and by not providing guaranteed or unlimited resources. This means that overall usage limits as well as idle timeout periods, maximum VM lifetime, GPU types available, and other factors vary over time. Colab does not publish these limits, in part because they can (and sometimes do) vary quickly. You can relax Colab's usage limits by purchasing one of our paid plans here. These plans have similar dynamics in that resource availability may change over time. You can purchase guaranteed resources via GCP Marketplace to use with Colab.
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/resource%20utiliztion.jpg" alt="Google colab performance bar">
+  
+  Figure: Performance of model training process 
+</div>
+
+Therefore we had to limit our dataset to training dataset of 1000 images, validation dataset of 100 images and trainig dataset of 100 images.
+
+> We recommend to purchase Google Colab pro version and run with the full dataset.
+
+We uploaded mentioned dataset to our Gdrive and used them in colab. Then mount the drive into workspace.
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/colab%20env.jpg" alt="Colab Environment showing Gdrive data">
+  
+  Figure: Access dataset of Gdrive using Colab 
 </div>
 
 We installed packages  YOLO, super-gradients, roboflow, supervision, opencv-python, fastapi, kaleido, python-multipart, uvicorn, tensorflow using below code.
