@@ -25,7 +25,9 @@ Comparison of related benchmarks. #Img.: number of images. #Obj./img.: average i
 We used supervised learning..
 
 
-## Coding
+## Programming
+
+### Coding Environment
 We used Jupyter Notebook provided by Google Colab (free version) to write our codes. We run our codes with GPU (Changed CPU to GPU/TPU).
 
 <div align="center">
@@ -50,13 +52,16 @@ Therefore we had to limit our dataset to training dataset of 1000 images, valida
 
 > We recommend to purchase Google Colab pro version and run with the full dataset.
 
-We uploaded mentioned dataset to our Gdrive and used them in colab. Then mount the drive into workspace.
+### Dataset usage
+We uploaded mentioned dataset to our Gdrive and used them in colab. For that mounted the drive into workspace.
 
 <div align="center">
   <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/dataset.jpg" alt="Colab Environment showing Gdrive data">
   
   Figure: Access dataset of Gdrive using Colab 
 </div>
+
+### Coding
 
 We installed packages  YOLO, super-gradients, roboflow, supervision, opencv-python, fastapi, kaleido, python-multipart, uvicorn, tensorflow using below code.
 ```python
