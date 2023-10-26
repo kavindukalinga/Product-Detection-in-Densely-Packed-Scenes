@@ -76,17 +76,18 @@ We installed packages  YOLO, super-gradients, roboflow, supervision, opencv-pyth
 Summary after running 15 epochs are as below.
 
 <div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/summary%20of%20epoch%2014%20testing.jpg" alt="Training Summery">
+  
+  Figure: Summery of Training
+</div>
+
+
+<div align="center">
   <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/summary%20of%20epoch%2014%20validation.jpg" alt="Validation summery">
   
   Figure: Summery of Validation 
 </div>
 
-
-<div align="center">
-  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/summary%20of%20epoch%2014%20testing.jpg" alt="Testing Summery">
-  
-  Figure: Summery of Testing
-</div>
 
 Hers is our output getting by random image from testing data.
 
