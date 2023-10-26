@@ -89,7 +89,7 @@ Summary after running 15 epochs are as below.
 </div>
 
 
-Hers is our output getting by random image from testing data.
+This is the result obtained by selecting a random image from the testing dataset
 
 <div align="center">
   <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/output.png" alt="Output Image">
