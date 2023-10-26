@@ -63,12 +63,40 @@ We uploaded mentioned dataset to our Gdrive and used them in colab. For that mou
 
 ### Coding
 
+We used the code [training.ipynb](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/training.ipynb) to train our model and got the weights. Then stored the weight values in Google Drive.
+
 We installed packages  YOLO, super-gradients, roboflow, supervision, opencv-python, fastapi, kaleido, python-multipart, uvicorn, tensorflow using below code.
 ```python
 !pip install super-gradients roboflow supervision opencv-python fastapi kaleido python-multipart uvicorn tensorflow
 !DEBIAN_FRONTEND=noninteractive apt update -y && apt install -y libglu1 libglib2.0-0 libsm6 libxrender1 libxext6 git build-essential
 # !pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+
+## Our Results
+Summary after running 15 epochs are as below.
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/summary%20of%20epoch%2014%20validation.jpg" alt="Validation summery">
+  
+  Figure: Summery of Validation 
+</div>
+
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/summary%20of%20epoch%2014%20testing.jpg" alt="Testing Summery">
+  
+  Figure: Summery of Testing
+</div>
+
+Hers is our output getting by random image from testing data.
+
+<div align="center">
+  <img src="https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/output.png" alt="Output Image">
+  
+  Figure: Result output 
+</div>
+
+The code [testingimages.ipynb](https://github.com/kavindukalinga/Product-Detection-in-Densely-Packed-Scenes/blob/main/testingimages.ipynb) is used to get results.
 
 ### References
 
