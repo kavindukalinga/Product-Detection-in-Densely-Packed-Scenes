@@ -1,0 +1,14 @@
+// Voice:
+
+Slide 01
+In the realm of computer vision, object detection has come a long way that objects like in first picture is very easy to identify using simple implementation. The first picture, we dont even need deep learning to detect objects. We simply can use classical object detection as well because there is a clear edges between objects and background,However, in cases of densely packed object detection, such distinctions are not as apparent, necessitating the use of deep learning techniques. While existing models have been attempted for this task, their average precision is notably low, prompting the exploration of alternative methods.
+
+
+Slide 02
+Our task is to identify each object in a picture containing densely packed objects and output the annotated image accordingly. To achieve this, we utilize the SKU 100K dataset, comprising more than 10,000 images and labels.  Using that we employ supervised learning to create our model.
+
+Slide 03
+To create our model, we plan to use the existing YOLO model, specifically the YOLO-NAS-s model. Training begins with the application of pretrained model weights obtained from the COCO dataset, designed for similar tasks. In summary, our model undergoes training using the SKU 110K dataset, employing the Ppyoloeloss function as our chosen loss function, consistent with tasks of a similar nature.
+
+Slide 04
+After obtaining our model, we tested it with the dataset and obtained promising results. As showing in the plots, we reduced our training and validation losses with epochs, and increased our average precision and recall values. Due to limited resources, we had to restrict training to 15 epochs. However, in comparison to existing models, our model achieved a significantly high mean average precision value of 0.7402.
