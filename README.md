@@ -153,5 +153,3 @@ This workshop aims to present and progress the revolution that is already occuri
 - Multi-person tracking
 - Recognition of actions such as taking/returning/examining products
 
-
-EN3160 Viva Zoom Link: https://learn.zoom.us/j/97415696428?pwd=MEJsL1J5UXN6elVaNkpCdnpGM2dsUT09
